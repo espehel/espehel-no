@@ -1,0 +1,43 @@
+body {
+  padding: 30px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+.post {
+    width: 700px;
+}
+
+.postForm {
+    width: 700px;
+}
+.postAuthor {
+    font-size: 150%;
+}
+.postTimestamp {
+    font-size: 50%;
+}
+ul{
+    list-style-type: none;
+}
+
+
+h2 {
+	margin:0 0 .5em 0;
+}
+
+a {
+  color: #00B7FF;
+}
+a.deletepost {
+	color: #FF0000;
+	text-decoration: none;
+	font: sans-serif;
+}
+a.deletepost:hover {
+    font-weight: 900;
+}
+
+fieldset {
+	border:0;
+	padding:0; margin:0;
+}

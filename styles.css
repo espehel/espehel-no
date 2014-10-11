@@ -1,4 +1,26 @@
 @import url(http://fonts.googleapis.com/css?family=Capriola);
+
+body{
+  width: 100%;
+  position: relative;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #FCFCFC;
+  margin-top: auto;
+}
+
+header {
+
+    text-align: middle;
+    margin-bottom: 20px; 
+    vertical-align: middle;
+    width: 1000%;
+    background-color: #0f71ba; 
+}
+#siteWrap {
+  width: 70%;
+}
+
 #navbar,
 #navbar ul,
 #navbar ul li,

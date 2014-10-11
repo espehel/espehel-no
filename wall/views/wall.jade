@@ -1,0 +1,21 @@
+extends layout
+
+block content
+	h1= title
+	p Hello guests, here you can leave a nice post. If it is not nice i will delete it! :o
+	#addPost
+		fieldset
+			input#inputPostAuthor(type="text", placeholder="author...", name="postauthor")
+			br
+			textarea#inputPostContent(type="text", placeholder="content...", name="postcontent", rows="6", cols="66")
+			br
+			button#btnAddPost Add Post
+
+	h2.
+		Here you can see posts that others have left me:
+	#wallPosts
+		
+
+
+
+
